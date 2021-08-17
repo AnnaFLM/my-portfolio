@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1,
@@ -56,6 +56,10 @@ p {
   max-width: 200px;
 }
 
+.primary-link:hover {
+  color: white;
+}
+
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -92,13 +96,9 @@ p {
 }
 
 @media (max-width: 576px) {
-  .info-box .col-img {
-    display: none;
+  p {
+    text-align: center;
   }
-
-.info-box {
-  text-align: center;
-}
 
   h1 {
     font-size: 50px;
@@ -106,6 +106,7 @@ p {
 
   h2 {
     font-size: 30px;
+    text-align: center;
   }
   .project-link {
     display: block;
